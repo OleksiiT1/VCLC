@@ -10,42 +10,66 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var testView: UIView?
     override func loadView() {
-        super.loadView()
         print("Load View")
+        print("Test view is Nil = \(testView == nil)")
+        super.loadView()
+        print("Test view is Nil = \(testView == nil)")
+        print("Test view size is \(testView!.frame.size)")
+        print("============")
     }
     
     override func loadViewIfNeeded() {
-        super.loadViewIfNeeded()
         print("Load View If needad")
+        print("Test view is Nil = \(testView == nil)")
+        super.loadViewIfNeeded()
+        print("Test view is Nil = \(testView == nil)")
+        print("Test view size is \(testView!.frame.size)")
+        print("============")
     }
     
     
     override func viewDidLoad() {
-        super.viewDidLoad()
         print("View Did Load")
-        // Do any additional setup after loading the view, typically from a nib.
+        print("Test view is Nil = \(testView == nil)")
+        super.viewDidLoad()
+        testView?.backgroundColor = UIColor.red
+        print("Test view is Nil = \(testView == nil)")
+        print("Test view size is \(testView!.frame.size)")
+        print("============")
     }
 
     
     override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         print("View Will Appear")
+        super.viewWillAppear(animated)
+        print("Test view size is \(testView!.frame.size)")
+        print("============")
     }
     
     override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
         print("Will Layout Subviews")
+        print("Test view size is \(testView!.frame.size)")
+        super.viewWillLayoutSubviews()
+        print("Test view size is \(testView!.frame.size)")
+        print("============")
     }
     
     override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
         print("Did Layout Subviews")
+        print("Test view size is \(testView!.frame.size)")
+        super.viewDidLayoutSubviews()
+        print("Test view size is \(testView!.frame.size)")
+        print("============")
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
         print("View Did Appear")
+        print("Test view size is \(testView!.frame.size)")
+        super.viewDidAppear(animated)
+        print("Test view size is \(testView!.frame.size)")
+        print("============")
     }
     
 
