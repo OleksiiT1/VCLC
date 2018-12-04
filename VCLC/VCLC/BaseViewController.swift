@@ -10,6 +10,16 @@ import UIKit
 
 class BaseViewController: UIViewController {
     
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        print("Init called")
+    }
+    
+    
     var controllerName: String! {
         return nil
     }
@@ -26,6 +36,8 @@ class BaseViewController: UIViewController {
         print("Test view size is \(printableView!.frame.size)")
         print("============")
     }
+    
+    
     
     override func loadViewIfNeeded() {
         print("\(controllerName!) Load View If needad")

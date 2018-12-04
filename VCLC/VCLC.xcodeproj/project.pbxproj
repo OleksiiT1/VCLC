@@ -16,6 +16,7 @@
 		C6FAE2D921A2F01E00103A3D /* DismissableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FAE2D821A2F01E00103A3D /* DismissableViewController.swift */; };
 		C6FAE2DC21A2F09400103A3D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FAE2DB21A2F09400103A3D /* TestViewController.swift */; };
 		C6FAE2DE21A2F61A00103A3D /* ShowableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FAE2DD21A2F61A00103A3D /* ShowableViewController.swift */; };
+		DB512D2421B66279003CB4FB /* Acceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB512D2321B66279003CB4FB /* Acceptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		C6FAE2D821A2F01E00103A3D /* DismissableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissableViewController.swift; sourceTree = "<group>"; };
 		C6FAE2DB21A2F09400103A3D /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		C6FAE2DD21A2F61A00103A3D /* ShowableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowableViewController.swift; sourceTree = "<group>"; };
+		DB512D2321B66279003CB4FB /* Acceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acceptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				C6FAE2D821A2F01E00103A3D /* DismissableViewController.swift */,
 				C6FAE2DB21A2F09400103A3D /* TestViewController.swift */,
 				C6FAE2DD21A2F61A00103A3D /* ShowableViewController.swift */,
+				DB512D2321B66279003CB4FB /* Acceptor.swift */,
 			);
 			path = VCLC;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				C6FAE2B921A2E93400103A3D /* AppDelegate.swift in Sources */,
 				C6FAE2DE21A2F61A00103A3D /* ShowableViewController.swift in Sources */,
 				C6FAE2DC21A2F09400103A3D /* TestViewController.swift in Sources */,
+				DB512D2421B66279003CB4FB /* Acceptor.swift in Sources */,
 				C6FAE2D921A2F01E00103A3D /* DismissableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,9 @@ import UIKit
 
 class DismissableViewController: BaseViewController {
 
+    
+    
+    @IBOutlet weak var forTransffered: UILabel!
     @IBOutlet weak var dismissButton: UIButton!
     override var controllerName: String! {
         return "DismissableViewController"

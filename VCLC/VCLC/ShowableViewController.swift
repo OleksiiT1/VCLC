@@ -10,7 +10,9 @@ import UIKit
 
 class ShowableViewController: BaseViewController {
 
+    @IBOutlet weak var forTransferred: UILabel!
     @IBOutlet weak var button: UIButton!
+    private var transferred: Int!
     
     @IBAction func buttonPressed(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
@@ -24,4 +26,15 @@ class ShowableViewController: BaseViewController {
         return button
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        forTransferred.text = "\(transferred!)"
+    }
+}
+
+
+extension ShowableViewController: Acceptor {
+    func setNumber(_ number: Int) {
+        transferred = number
+    }
 }
